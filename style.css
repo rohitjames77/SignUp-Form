@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot");
+    src: url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7d460b18433753a097e5bc2bad7c8dd9.svg#Norse Bold")format("svg");
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("form-backdrop3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: fixed;
+  margin: 0;
+}
+
+.logo-Cover {
+  position: sticky;
+  background-image: url("logo-cover2.jpg");
+  height: 100%;
+  width: 35%;
+  border-radius: 25px 0 0 25px;
+  top: 95px;
+  left: 400px;
+}
+
+.Odin-logo {
+  display: block;
+  left: 53vh;
+  bottom: 50vh;
+  position: fixed;
+  height: 25vh;
+  width: 10vw;
+}
+
+.odin-head1 {
+    position: fixed;
+  font-size: 3.5rem;
+  font-family: "Norse Bold";
+  font-weight: 800;
+  color:white;
+  left: 560px;
+  top: 445px;
+  bottom: 150px;
+}
+
+.odin-head2{
+    position: fixed;
+    font-size: 4.5rem;
+    font-family: "Norse Bold";
+    left: 540px;
+    top: 504px;
+    bottom: 150px;
+    color: white;
+    font-weight: 800;
+}
+.odin-head3{
+    position: fixed;
+    font-family: "Norse Bold";
+    font-size: 4.5rem;
+    left: 510px;
+    top: 590px;
+    bottom: 150px;
+    color: white;
+    
+}
+.para1, .para2, .para3{
+    font-size :1.5rem;
+    font-weight: 600;
+}
+
+
+.inputs{
+    align-items:stretch;
+    margin: 0;
+    width: 100%;
+    height: 40%;
+    top: 290px;
+    border: 2px solid black;
+}
+
+.odin-signup-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+  font-family: "Courier New", Courier, monospace;
+  position: sticky;
+  bottom: 66px;
+  left: 784px;
+  height: 100%;
+  width: 40%;
+  background-color: white;
+  border-radius: 0 25px 25px 0;
+  box-shadow: 5px black;
+}
+
+.form-field {
+display: inline-flex;
+flex-direction: row;
+}
+
+
