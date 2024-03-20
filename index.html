@@ -19,7 +19,7 @@
     <h1 class="odin-head2">ODIN</h1>
     <br />
     <h1 class="odin-head3">PROJECT</h1>
-    <!-- <form action="" method="dialog" class="odin-signup-form">
+    <form action="" method="dialog" class="odin-signup-form">
       <p class="para1">
         This is not a real online service! You know you need something like
         <strong style="font-weight: 800">this</strong> in your life to help you
@@ -27,8 +27,9 @@
       </p>
       <p class="para2">You know you want to.</p>
       <p class="para3">Let's do this!</p>
-      <div class="form-parent1">
-        <form action="#" method="dialog">
+      <form action="#" method="dialog">
+        <div class="form-grandParent">
+          <div class="form-parent1">
          <fieldset>     
          <label for="first-name" class="form-label">FIRST NAME</label>
        <input
@@ -36,23 +37,26 @@
                  id="first-name"
                  name="first-name"
                  class="form-input"
-                 style="width: 300px"
+                 style="width: 200px"
+                 required
                />
                <label for="email" class="form-label">EMAIL</label>
                <input
-                 type="email"
+                 type="email"`
                  id="email"
                  name="email"
                  class="form-input"
-                 style="width: 300px"
+                 style="width: 200px"
+                 required
                />
                <label for="user-password" class="form-label">PASSWORD</label>
                <input
-                 type="password"
+                 type="password"`
                  id="user_password"
                  name="password"
                  class="form-input"
-                 style="width: 300px"
+                 style="width: 200px"
+                 required
                />
              </fieldset>
            </div>
@@ -60,33 +64,42 @@
              <fieldset>
                <label for="last-name" class="form-label">LAST NAME </label>
                <input
-                 type="text"
+                 type="text"`
                  id="last-name"
                  name="first-name"
                  class="form-input"
-                 style="width: 300px"
+                 style="width: 200px"
+                 required
                />
                <label for="phone-number" class="form-label">PHONE NUMBER </label>
                <input
-                 type="number"
+                 type="number"`
                  id="phone-number"
                  name="phone-number"
                  class="form-input"
-                 style="width: 300px"
+                 style="width: 200px"
+                 min="1"
+                 max="10"
+                 required
                />
                <label for="confirm-password" class="form-label">
                  CONFIRM PASSWORD</label
                >
                <input
-                 type="password"
+                 type="password"`
                  id="confirm-password"
                  name="password"
                  class="form-input"
-                 style="width: 300px"
+                 style="width: 200px"
+                 required
                />
              </fieldset> 
-             </form>
-           </div>
+            </div>
+          </div>
+          <button type="submit" class="form-button">CREATE ACCOUNT</button>
+          <p class="account-question">Already have an account ?
+          <a href="https://" target="_blank" rel="noopener noreferrer" class="form-anchor">Log in</a></p>
+            </form>
      </body> 
    </html>
    
